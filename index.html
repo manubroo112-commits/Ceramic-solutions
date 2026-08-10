@@ -1,0 +1,1884 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Ceramic Solutions</title>
+    <style type="text/tailwindcss">
+      @theme {
+        /* colors */
+        --color-white: #ffffff;
+        --color-red: #ff0000;
+        --color-black: #141414;
+        --color-dark-black: #000000;
+        --color-pink: #ffebeb;
+        --color-shine-black: #010101;
+
+        /* font-size */
+        --text-custom-12: 12px;
+        --text-custom-13: 13px;
+        --text-custom-15: 15px;
+        --text-custom-17: 17px;
+        --text-custom-19: 19px;
+        --text-custom-21: 21px;
+        --text-custom-22: 22px;
+        --text-custom-23: 23px;
+        --text-custom-25: 25px;
+        --text-custom-26: 26px;
+        --text-custom-27: 27px;
+        --text-custom-28: 28px;
+        --text-custom-29: 29px;
+        --text-custom-31: 31px;
+        --text-custom-32: 32px;
+        --text-custom-33: 33px;
+        --text-custom-34: 34px;
+        --text-custom-35: 35px;
+        --text-custom-37: 37px;
+        --text-custom-38: 38px;
+        --text-custom-39: 39px;
+        --text-custom-40: 40px;
+        --text-custom-41: 41px;
+        --text-custom-42: 42px;
+        --text-custom-43: 43px;
+        --text-custom-44: 44px;
+        --text-custom-45: 45px;
+        --text-custom-46: 46px;
+        --text-custom-47: 47px;
+        --text-custom-49: 49px;
+        --text-custom-50: 50px;
+        --text-custom-51: 51px;
+        --text-custom-52: 52px;
+        --text-custom-53: 53px;
+        --text-custom-54: 54px;
+        --text-custom-55: 55px;
+        --text-custom-56: 56px;
+        --text-custom-57: 57px;
+        --text-custom-58: 58px;
+        --text-custom-59: 59px;
+        --text-custom-61: 61px;
+        --text-custom-62: 62px;
+        --text-custom-63: 63px;
+        --text-custom-64: 64px;
+        --text-custom-65: 65px;
+        --text-custom-66: 66px;
+        --text-custom-67: 67px;
+        --text-custom-68: 68px;
+
+        /* leading */
+        --leading-100: 100%;
+        --leading-127: 127%;
+        --leading-150: 150%;
+        --leading-160: 160%;
+        --leading-165: 165%;
+        --leading-170: 170%;
+        --leading-180: 180%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="fixed top-0 left-0 w-full z-50 px-4 lg:px-8 pt-6">
+      <nav
+        class="max-w-[1140px] mx-auto bg-white rounded-[24px] shadow-[0_8px_40px_rgba(0,0,0,0.08)]"
+      >
+        <div
+          class="flex items-center justify-between h-[84px] pr-7 pl-4 lg:pr-9"
+        >
+          <!-- Logo -->
+
+          <a href="#" class="flex items-center">
+            <img
+              height="52"
+              width="105.67"
+              src="./assets/images/svg/ceramic-solutions-logo.svg"
+              alt="Logo"
+            />
+          </a>
+
+          <!-- Desktop Menu -->
+
+          <ul class="hidden lg:flex items-center gap-7">
+            <li>
+              <a
+                href="#"
+                class="font-regular leading-[163%] text-base text-black hover:text-red duration-300"
+              >
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="font-regular leading-[163%] text-base text-black hover:text-red duration-300"
+              >
+                About
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="font-regular leading-[163%] text-base text-black hover:text-red duration-300"
+              >
+                Services
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="font-regular leading-[163%] text-base text-black hover:text-red duration-300"
+              >
+                Portfolio
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="font-regular leading-[163%] text-base text-black hover:text-red duration-300"
+              >
+                Contact us
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="font-regular leading-[163%] text-base text-black hover:text-red duration-300"
+              >
+                Request a Quote
+              </a>
+            </li>
+          </ul>
+
+          <!-- Right Side -->
+
+          <div class="flex items-center gap-3">
+            <a
+              href="tel:+18656211717"
+              class="hidden lg:flex items-center gap-2.5 border border-transparent bg-red hover:bg-white hover:text-red hover:border-red duration-300 text-white rounded-[56px] px-5 py-[14px] font-semibold text-base leading-100"
+            >
+              <!-- SVG -->
+
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.05 14.95L9.2 16.8C8.81 17.19 8.19 17.19 7.79 16.81C7.68 16.7 7.57 16.6 7.46 16.49C6.43 15.45 5.5 14.36 4.67 13.22C3.85 12.08 3.19 10.94 2.71 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C10.83 13.32 10.94 13.42 11.04 13.52C11.44 13.91 11.45 14.55 11.05 14.95Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M21.9696 18.33C21.9696 18.61 21.9196 18.9 21.8196 19.18C21.7896 19.26 21.7596 19.34 21.7196 19.42C21.5496 19.78 21.3296 20.12 21.0396 20.44C20.5496 20.98 20.0096 21.37 19.3996 21.62C19.3896 21.62 19.3796 21.63 19.3696 21.63C18.7796 21.87 18.1396 22 17.4496 22C16.4296 22 15.3396 21.76 14.1896 21.27C13.0396 20.78 11.8896 20.12 10.7496 19.29C10.3596 19 9.96961 18.71 9.59961 18.4L12.8696 15.13C13.1496 15.34 13.3996 15.5 13.6096 15.61C13.6596 15.63 13.7196 15.66 13.7896 15.69C13.8696 15.72 13.9496 15.73 14.0396 15.73C14.2096 15.73 14.3396 15.67 14.4496 15.56L15.2096 14.81C15.4596 14.56 15.6996 14.37 15.9296 14.25C16.1596 14.11 16.3896 14.04 16.6396 14.04C16.8296 14.04 17.0296 14.08 17.2496 14.17C17.4696 14.26 17.6996 14.39 17.9496 14.56L21.2596 16.91C21.5196 17.09 21.6996 17.3 21.8096 17.55C21.9096 17.8 21.9696 18.05 21.9696 18.33Z"
+                  fill="currentColor"
+                />
+              </svg>
+
+              (865) 621-1717
+            </a>
+
+            <!-- Mobile Menu -->
+
+            <button
+              title="button"
+              id="menuBtn"
+              class="lg:hidden flex flex-col gap-1.5"
+            >
+              <span class="w-7 h-[2px] bg-black"></span>
+              <span class="w-7 h-[2px] bg-black"></span>
+              <span class="w-7 h-[2px] bg-black"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ================= Overlay ================= -->
+
+    <div
+      id="overlay"
+      class="fixed inset-0 bg-black/50 backdrop-blur-sm opacity-0 invisible transition-all duration-300 z-[90]"
+    ></div>
+
+    <!-- ================= Mobile Menu ================= -->
+
+    <aside
+      id="mobileMenu"
+      class="fixed top-0 right-0 h-screen w-[320px] bg-white shadow-2xl translate-x-full transition-transform duration-500 z-[100]"
+    >
+      <!-- Header -->
+      <div
+        class="flex justify-between items-center px-6 py-6 border-b border-black/10"
+      >
+        <img
+          title="Image"
+          src="./assets/images/svg/ceramic-solutions-logo.svg"
+          alt="Logo"
+          class="h-10"
+        />
+
+        <button title="Button" id="closeMenu" aria-label="Close Menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-7 h-7 text-black"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Navigation -->
+
+      <nav class="flex flex-col p-8 space-y-7">
+        <a
+          href="#"
+          class="text-custom-17 leading-150 font-normal text-black hover:text-red duration-300"
+        >
+          Home
+        </a>
+
+        <a
+          href="#"
+          class="text-custom-17 leading-150 font-normal text-black hover:text-red duration-300"
+        >
+          About
+        </a>
+
+        <a
+          href="#"
+          class="text-custom-17 leading-150 font-normal text-black hover:text-red duration-300"
+        >
+          Services
+        </a>
+
+        <a
+          href="#"
+          class="text-custom-17 leading-150 font-normal text-black hover:text-red duration-300"
+        >
+          Portfolio
+        </a>
+
+        <a
+          href="#"
+          class="text-custom-17 leading-150 font-normal text-black hover:text-red duration-300"
+        >
+          Contact
+        </a>
+
+        <a
+          href="#"
+          class="text-custom-17 leading-150 font-normal text-black hover:text-red duration-300"
+        >
+          Request a Quote
+        </a>
+
+        <!-- Call Button -->
+
+        <a
+          href="tel:+18656211717"
+          class="mt-8 flex gap-2.5 items-center justify-center bg-red hover:bg-red-700 duration-300 text-white rounded-full py-4 font-semibold text-base leading-100"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.05 14.95L9.2 16.8C8.81 17.19 8.19 17.19 7.79 16.81C7.68 16.7 7.57 16.6 7.46 16.49C6.43 15.45 5.5 14.36 4.67 13.22C3.85 12.08 3.19 10.94 2.71 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C10.83 13.32 10.94 13.42 11.04 13.52C11.44 13.91 11.45 14.55 11.05 14.95Z"
+              fill="white"
+            />
+            <path
+              d="M21.9696 18.33C21.9696 18.61 21.9196 18.9 21.8196 19.18C21.7896 19.26 21.7596 19.34 21.7196 19.42C21.5496 19.78 21.3296 20.12 21.0396 20.44C20.5496 20.98 20.0096 21.37 19.3996 21.62C19.3896 21.62 19.3796 21.63 19.3696 21.63C18.7796 21.87 18.1396 22 17.4496 22C16.4296 22 15.3396 21.76 14.1896 21.27C13.0396 20.78 11.8896 20.12 10.7496 19.29C10.3596 19 9.96961 18.71 9.59961 18.4L12.8696 15.13C13.1496 15.34 13.3996 15.5 13.6096 15.61C13.6596 15.63 13.7196 15.66 13.7896 15.69C13.8696 15.72 13.9496 15.73 14.0396 15.73C14.2096 15.73 14.3396 15.67 14.4496 15.56L15.2096 14.81C15.4596 14.56 15.6996 14.37 15.9296 14.25C16.1596 14.11 16.3896 14.04 16.6396 14.04C16.8296 14.04 17.0296 14.08 17.2496 14.17C17.4696 14.26 17.6996 14.39 17.9496 14.56L21.2596 16.91C21.5196 17.09 21.6996 17.3 21.8096 17.55C21.9096 17.8 21.9696 18.05 21.9696 18.33Z"
+              fill="white"
+            />
+          </svg>
+
+          (865) 621-1717
+        </a>
+      </nav>
+    </aside>
+    <!-- ================= HERO ================= -->
+    <section class="relative min-h-[776px] overflow-hidden bg-black">
+      <!-- Background Image -->
+
+      <img
+        src="./assets/images/png/hero-background3.png"
+        alt="Background-img"
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+
+      <!-- Dark Overlay -->
+
+      <div class="absolute inset-0 bg-black/55"></div>
+
+      <!-- Hero Content -->
+
+      <div class="relative z-20 max-w-[1140px] mx-auto px-5 pt-[179px] pb-6">
+        <!-- Content -->
+
+        <div class="content">
+          <h1
+            class="text-white font-semibold leading-[127%] text-[42px] sm:text-[54px] lg:text-[64px]"
+          >
+            Transform Your Space with
+            <br />
+
+            Precision and Quality:
+            <br />
+
+            Get a Free Quote Today!
+          </h1>
+
+          <p class="mt-5 max-w-[742px] text-white/90 text-lg leading-[162%]">
+            Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
+            primasofi dede facebooka: förutom tivaligt. Fejkade nyheter
+            eurosamma sol: teroktig.
+          </p>
+
+          <!-- CTA -->
+
+          <a
+            href="#"
+            class="inline-flex mt-9 bg-[#FF1A12] border border-transparent hover:border-red hover:text-red hover:bg-white transition-all ease-in-out duration-500 rounded-[56px] px-[27px] py-[17.5px] text-white text-xl font-semibold shadow-xl"
+          >
+            Get A Quote
+          </a>
+        </div>
+
+        <!-- Reviews -->
+
+        <div class="mt-[72px] flex flex-wrap gap-6 items-center">
+          <!-- Google -->
+
+          <div
+            class="bg-white rounded-2xl pt-[8.33px] pb-1.5 pl-4 pr-[45.5px] flex items-center gap-[10.67px] shadow-xl"
+          >
+            <img src="./assets/images/svg/google.svg" alt="google" />
+
+            <div>
+              <p class="google text-custom-12 text-black leading-160 -mb-[2px]">
+                Google Review
+              </p>
+
+              <div class="flex items-center gap-1">
+                <span class="google text-xl font-normal leading-160">
+                  4.6
+                </span>
+
+                <span class="text-yellow-400">
+                  <svg
+                    width="84"
+                    height="17"
+                    viewBox="0 0 84 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.54078 2.43921C7.79024 1.67145 8.87642 1.67145 9.12588 2.43921L10.0172 5.18237C10.1287 5.52572 10.4487 5.75819 10.8097 5.75819H13.6941C14.5013 5.75819 14.837 6.7912 14.1839 7.26571L11.8504 8.96107C11.5583 9.17328 11.4361 9.54942 11.5477 9.89277L12.439 12.6359C12.6885 13.4037 11.8097 14.0421 11.1566 13.5676L8.82315 11.8723C8.53108 11.6601 8.13558 11.6601 7.84351 11.8723L5.51004 13.5676C4.85694 14.0421 3.97821 13.4037 4.22767 12.6359L5.11898 9.89277C5.23054 9.54942 5.10832 9.17328 4.81625 8.96107L2.48278 7.26571C1.82968 6.7912 2.16533 5.75819 2.9726 5.75819H5.85693C6.21795 5.75819 6.53791 5.52573 6.64948 5.18237L7.54078 2.43921Z"
+                      fill="#FCB547"
+                    />
+                    <path
+                      d="M24.2078 2.43921C24.4572 1.67145 25.5434 1.67145 25.7929 2.43921L26.6842 5.18237C26.7957 5.52572 27.1157 5.75819 27.4767 5.75819H30.3611C31.1683 5.75819 31.504 6.7912 30.8509 7.26571L28.5174 8.96107C28.2253 9.17328 28.1031 9.54942 28.2147 9.89277L29.106 12.6359C29.3554 13.4037 28.4767 14.0421 27.8236 13.5676L25.4901 11.8723C25.1981 11.6601 24.8026 11.6601 24.5105 11.8723L22.177 13.5676C21.5239 14.0421 20.6452 13.4037 20.8947 12.6359L21.786 9.89277C21.8975 9.54942 21.7753 9.17328 21.4832 8.96107L19.1498 7.26571C18.4967 6.7912 18.8323 5.75819 19.6396 5.75819H22.5239C22.8849 5.75819 23.2049 5.52573 23.3165 5.18237L24.2078 2.43921Z"
+                      fill="#FCB547"
+                    />
+                    <path
+                      d="M40.8738 2.43921C41.1233 1.67145 42.2094 1.67145 42.4589 2.43921L43.3502 5.18237C43.4618 5.52572 43.7817 5.75819 44.1427 5.75819H47.0271C47.8343 5.75819 48.17 6.7912 47.5169 7.26571L45.1834 8.96107C44.8913 9.17328 44.7691 9.54942 44.8807 9.89277L45.772 12.6359C46.0215 13.4037 45.1427 14.0421 44.4896 13.5676L42.1562 11.8723C41.8641 11.6601 41.4686 11.6601 41.1765 11.8723L38.843 13.5676C38.1899 14.0421 37.3112 13.4037 37.5607 12.6359L38.452 9.89277C38.5635 9.54942 38.4413 9.17328 38.1493 8.96107L35.8158 7.26571C35.1627 6.7912 35.4983 5.75819 36.3056 5.75819H39.1899C39.551 5.75819 39.8709 5.52573 39.9825 5.18237L40.8738 2.43921Z"
+                      fill="#FCB547"
+                    />
+                    <path
+                      d="M57.5408 2.43921C57.7902 1.67145 58.8764 1.67145 59.1259 2.43921L60.0172 5.18237C60.1287 5.52572 60.4487 5.75819 60.8097 5.75819H63.6941C64.5013 5.75819 64.837 6.7912 64.1839 7.26571L61.8504 8.96107C61.5583 9.17328 61.4361 9.54942 61.5477 9.89277L62.439 12.6359C62.6885 13.4037 61.8097 14.0421 61.1566 13.5676L58.8232 11.8723C58.5311 11.6601 58.1356 11.6601 57.8435 11.8723L55.51 13.5676C54.8569 14.0421 53.9782 13.4037 54.2277 12.6359L55.119 9.89277C55.2305 9.54942 55.1083 9.17328 54.8163 8.96107L52.4828 7.26571C51.8297 6.7912 52.1653 5.75819 52.9726 5.75819H55.8569C56.218 5.75819 56.5379 5.52573 56.6495 5.18237L57.5408 2.43921Z"
+                      fill="#FCB547"
+                    />
+                    <path
+                      d="M74.2068 2.43921C74.4563 1.67145 75.5424 1.67145 75.7919 2.43921L76.6832 5.18237C76.7948 5.52572 77.1147 5.75819 77.4757 5.75819H80.3601C81.1674 5.75819 81.503 6.7912 80.8499 7.26571L78.5164 8.96107C78.2244 9.17328 78.1021 9.54942 78.2137 9.89277L79.105 12.6359C79.3545 13.4037 78.4757 14.0421 77.8226 13.5676L75.4892 11.8723C75.1971 11.6601 74.8016 11.6601 74.5095 11.8723L72.1761 13.5676C71.523 14.0421 70.6442 13.4037 70.8937 12.6359L71.785 9.89277C71.8966 9.54942 71.7743 9.17328 71.4823 8.96107L69.1488 7.26571C68.4957 6.7912 68.8313 5.75819 69.6386 5.75819H72.5229C72.884 5.75819 73.2039 5.52573 73.3155 5.18237L74.2068 2.43921Z"
+                      fill="#FCB547"
+                    />
+                  </svg>
+                </span>
+              </div>
+
+              <p class="google text-custom-12 text-black leading-160 -mt-[2px]">
+                Based on 145 reviews
+              </p>
+            </div>
+          </div>
+
+          <!-- Trustpilot -->
+
+          <div
+            class="bg-white rounded-2xl pt-[8.33px] pb-1.5 pl-[8.33px] pr-[44.83px] flex items-center gap-[4.83px] shadow-xl"
+          >
+            <img src="./assets/images/svg/green-star.svg" alt="google" />
+
+            <div>
+              <p class="google text-custom-12 text-black leading-160 -mb-[2px]">
+                Trust Pilot Review
+              </p>
+
+              <div class="flex items-center gap-1">
+                <span class="google text-xl font-normal leading-160">
+                  4.6
+                </span>
+
+                <span class="text-yellow-400">
+                  <svg
+                    width="84"
+                    height="17"
+                    viewBox="0 0 84 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.54078 2.43921C7.79024 1.67145 8.87642 1.67145 9.12588 2.43921L10.0172 5.18237C10.1287 5.52572 10.4487 5.75819 10.8097 5.75819H13.6941C14.5013 5.75819 14.837 6.7912 14.1839 7.26571L11.8504 8.96107C11.5583 9.17328 11.4361 9.54942 11.5477 9.89277L12.439 12.6359C12.6885 13.4037 11.8097 14.0421 11.1566 13.5676L8.82315 11.8723C8.53108 11.6601 8.13558 11.6601 7.84351 11.8723L5.51004 13.5676C4.85694 14.0421 3.97821 13.4037 4.22767 12.6359L5.11898 9.89277C5.23054 9.54942 5.10832 9.17328 4.81625 8.96107L2.48278 7.26571C1.82968 6.7912 2.16533 5.75819 2.9726 5.75819H5.85693C6.21795 5.75819 6.53791 5.52573 6.64948 5.18237L7.54078 2.43921Z"
+                      fill="#FCB547"
+                    />
+                    <path
+                      d="M24.2078 2.43921C24.4572 1.67145 25.5434 1.67145 25.7929 2.43921L26.6842 5.18237C26.7957 5.52572 27.1157 5.75819 27.4767 5.75819H30.3611C31.1683 5.75819 31.504 6.7912 30.8509 7.26571L28.5174 8.96107C28.2253 9.17328 28.1031 9.54942 28.2147 9.89277L29.106 12.6359C29.3554 13.4037 28.4767 14.0421 27.8236 13.5676L25.4901 11.8723C25.1981 11.6601 24.8026 11.6601 24.5105 11.8723L22.177 13.5676C21.5239 14.0421 20.6452 13.4037 20.8947 12.6359L21.786 9.89277C21.8975 9.54942 21.7753 9.17328 21.4832 8.96107L19.1498 7.26571C18.4967 6.7912 18.8323 5.75819 19.6396 5.75819H22.5239C22.8849 5.75819 23.2049 5.52573 23.3165 5.18237L24.2078 2.43921Z"
+                      fill="#FCB547"
+                    />
+                    <path
+                      d="M40.8738 2.43921C41.1233 1.67145 42.2094 1.67145 42.4589 2.43921L43.3502 5.18237C43.4618 5.52572 43.7817 5.75819 44.1427 5.75819H47.0271C47.8343 5.75819 48.17 6.7912 47.5169 7.26571L45.1834 8.96107C44.8913 9.17328 44.7691 9.54942 44.8807 9.89277L45.772 12.6359C46.0215 13.4037 45.1427 14.0421 44.4896 13.5676L42.1562 11.8723C41.8641 11.6601 41.4686 11.6601 41.1765 11.8723L38.843 13.5676C38.1899 14.0421 37.3112 13.4037 37.5607 12.6359L38.452 9.89277C38.5635 9.54942 38.4413 9.17328 38.1493 8.96107L35.8158 7.26571C35.1627 6.7912 35.4983 5.75819 36.3056 5.75819H39.1899C39.551 5.75819 39.8709 5.52573 39.9825 5.18237L40.8738 2.43921Z"
+                      fill="#FCB547"
+                    />
+                    <path
+                      d="M57.5408 2.43921C57.7902 1.67145 58.8764 1.67145 59.1259 2.43921L60.0172 5.18237C60.1287 5.52572 60.4487 5.75819 60.8097 5.75819H63.6941C64.5013 5.75819 64.837 6.7912 64.1839 7.26571L61.8504 8.96107C61.5583 9.17328 61.4361 9.54942 61.5477 9.89277L62.439 12.6359C62.6885 13.4037 61.8097 14.0421 61.1566 13.5676L58.8232 11.8723C58.5311 11.6601 58.1356 11.6601 57.8435 11.8723L55.51 13.5676C54.8569 14.0421 53.9782 13.4037 54.2277 12.6359L55.119 9.89277C55.2305 9.54942 55.1083 9.17328 54.8163 8.96107L52.4828 7.26571C51.8297 6.7912 52.1653 5.75819 52.9726 5.75819H55.8569C56.218 5.75819 56.5379 5.52573 56.6495 5.18237L57.5408 2.43921Z"
+                      fill="#FCB547"
+                    />
+                    <path
+                      d="M74.2068 2.43921C74.4563 1.67145 75.5424 1.67145 75.7919 2.43921L76.6832 5.18237C76.7948 5.52572 77.1147 5.75819 77.4757 5.75819H80.3601C81.1674 5.75819 81.503 6.7912 80.8499 7.26571L78.5164 8.96107C78.2244 9.17328 78.1021 9.54942 78.2137 9.89277L79.105 12.6359C79.3545 13.4037 78.4757 14.0421 77.8226 13.5676L75.4892 11.8723C75.1971 11.6601 74.8016 11.6601 74.5095 11.8723L72.1761 13.5676C71.523 14.0421 70.6442 13.4037 70.8937 12.6359L71.785 9.89277C71.8966 9.54942 71.7743 9.17328 71.4823 8.96107L69.1488 7.26571C68.4957 6.7912 68.8313 5.75819 69.6386 5.75819H72.5229C72.884 5.75819 73.2039 5.52573 73.3155 5.18237L74.2068 2.43921Z"
+                      fill="#FCB547"
+                    />
+                  </svg>
+                </span>
+              </div>
+
+              <p class="google text-custom-12 text-black leading-160 -mt-[2px]">
+                Based on 145 reviews
+              </p>
+            </div>
+          </div>
+
+          <!-- Award Placeholder -->
+
+          <div>
+            <img
+              width="81px"
+              height="80px"
+              src="./assets/images/png/award1.png"
+              alt="award"
+            />
+          </div>
+
+          <!-- Award Placeholder -->
+
+          <div>
+            <img
+              width="80px"
+              height="80px"
+              src="./assets/images/png/award2.png"
+              alt="award"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="max-lg:py-20 pt-[174px] pb-[140px]">
+      <div class="max-w-8xl mx-auto px-5">
+        <h2
+          class="text-center text-4xl sm:text-5xl lg:text-[56px] font-semibold text-black leading-[127%] mb-14"
+        >
+          What We Do?
+        </h2>
+
+        <div
+          id="serviceContainer"
+          class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 max-w-[370px] sm:max-w-[750px] lg:max-w-[1140px] mx-auto"
+        ></div>
+      </div>
+    </section>
+
+    <section class="bg-pink py-16 md:py-20 lg:py-[100px]">
+      <div class="max-w-[1200px] mx-auto px-5">
+        <div class="grid lg:grid-cols-2 gap-10 md:gap-20 lg:gap-0 items-start">
+          <!-- Left Content -->
+
+          <div class="max-w-[600px] mx-auto">
+            <h2
+              class="text-3xl sm:text-5xl lg:text-[56px] font-semibold leading-[127%] text-black"
+            >
+              Why Choose Us?
+            </h2>
+
+            <p
+              class="text-black text-base sm:text-[18px] leading-[162%] mt-5 max-w-[590px]"
+            >
+              Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+              Pregigt primasofi dede facebooka: förutom tivaligt.
+            </p>
+
+            <!-- Features -->
+
+            <div class="mt-8 space-y-5">
+              <!-- Item -->
+
+              <div class="flex gap-5">
+                <div
+                  class="w-[62px] h-[62px] rounded-xl bg-[#FFDCDC] flex items-center justify-center shrink-0"
+                >
+                  <img
+                    width="32"
+                    height="32"
+                    src="./assets/images/svg/star-1.svg"
+                    alt=""
+                  />
+                </div>
+
+                <div>
+                  <h4
+                    class="text-[18px] text-[#010101] sm:text-xl font-semibold leading-[160%]"
+                  >
+                    High Quality Materials
+                  </h4>
+
+                  <p
+                    class="text-black text-sm sm:text-base mt-3 leading-[163%] max-w-[330px]"
+                  >
+                    Eis seti enlga enviisener Fdkt, dass ein Leser vom Text
+                    abgelenkt wird.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item -->
+
+              <div class="flex gap-5 !mt-6">
+                <div
+                  class="w-[62px] h-[62px] rounded-xl bg-[#FFDCDC] flex items-center justify-center shrink-0"
+                >
+                  <img
+                    width="32"
+                    height="32"
+                    src="./assets/images/svg/like.svg"
+                    alt="like"
+                  />
+                </div>
+
+                <div>
+                  <h4
+                    class="text-[18px] sm:text-xl font-semibold text-[#010101] leading-[160%]"
+                  >
+                    Durability with Warranty
+                  </h4>
+
+                  <p
+                    class="text-black text-sm sm:text-base mt-3 leading-[163%] max-w-[330px]"
+                  >
+                    Eis seti enlga enviisener Fdkt, dass ein Leser vom Text
+                    abgelenkt wird.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item -->
+
+              <div class="flex gap-5 !mt-6">
+                <div
+                  class="w-[62px] h-[62px] rounded-xl bg-[#FFDCDC] flex items-center justify-center shrink-0"
+                >
+                  <img
+                    width="32"
+                    height="32"
+                    src="./assets/images/svg/phone-call.svg"
+                    alt="call"
+                  />
+                </div>
+
+                <div>
+                  <h4
+                    class="sm:text-xl text-[18px] text-[#010101] font-semibold leading-[160%]"
+                  >
+                    24/7 Support
+                  </h4>
+
+                  <p
+                    class="text-black text-sm sm:text-base mt-3 leading-[163%] max-w-[330px]"
+                  >
+                    Es ist ein lang erwiesener Fakt, dass ein Leser vom Text
+                    abgelenkt wird.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Button -->
+
+            <a
+              href="#"
+              class="inline-flex mt-9 bg-red-600 border border-transparent hover:bg-pink hover:text-red hover:border-red transition-all ease-in-out duration-400 text-white px-8 py-5 rounded-full text-[18px] leading-[128%] font-bold transition"
+            >
+              Get A Quote
+            </a>
+          </div>
+
+          <!-- Right Image -->
+
+          <div
+            class="relative flex justify-center lg:justify-end max-w-[650px] mx-auto"
+          >
+            <!-- Red Background Shape -->
+
+            <div
+              class="absolute bottom-0 sm:bottom-[-60px] lg:bottom-[-80px] left-0 sm:left-[-80px] sm:w-[300px] sm:h-[396px] bg-red-600 rounded-3xl"
+            ></div>
+
+            <!-- Image -->
+
+            <img
+              src="./assets/images/webp/red-section-imgg.webp"
+              alt="Interior"
+              class="relative z-10 w-[469px] h-[523px] object-cover rounded-[24px] shadow-xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 md:py-20 lg:py-35 overflow-hidden">
+      <div class="container mx-auto px-4">
+        <!-- Heading -->
+
+        <div class="max-w-3xl mx-auto text-center">
+          <h2
+            class="font-bold text-3xl md:text-5xl lg:text-custom-56 leading-127 text-dark-black"
+          >
+            What Our Customers Say
+          </h2>
+
+          <p
+            class="max-w-[641px] mx-auto mt-5 text-sm md:text-base lg:text-[18px] leading-150 text-dark-black"
+          >
+            Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
+            primasofi dede facebooka: förutom tivaligt. Fejkade
+          </p>
+
+          <!-- Reviews -->
+
+          <div class="flex flex-wrap justify-center gap-4 mt-8">
+            <div
+              class="bg-white text-left border border-[#14141426] rounded-2xl pt-[8.33px] pb-1.5 pl-4 pr-[45.5px] flex items-center gap-[10.67px] transition duration-500 ease-in-out hover:shadow-lg"
+            >
+              <img src="./assets/images/svg/google.svg" alt="google" />
+
+              <div>
+                <p
+                  class="google text-custom-12 text-black leading-160 -mb-[3px]"
+                >
+                  Google Review
+                </p>
+
+                <div class="flex items-center gap-1">
+                  <span class="google text-xl font-normal leading-160">
+                    4.6
+                  </span>
+
+                  <span class="text-yellow-400">
+                    <svg
+                      width="84"
+                      height="17"
+                      viewBox="0 0 84 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.54078 2.43921C7.79024 1.67145 8.87642 1.67145 9.12588 2.43921L10.0172 5.18237C10.1287 5.52572 10.4487 5.75819 10.8097 5.75819H13.6941C14.5013 5.75819 14.837 6.7912 14.1839 7.26571L11.8504 8.96107C11.5583 9.17328 11.4361 9.54942 11.5477 9.89277L12.439 12.6359C12.6885 13.4037 11.8097 14.0421 11.1566 13.5676L8.82315 11.8723C8.53108 11.6601 8.13558 11.6601 7.84351 11.8723L5.51004 13.5676C4.85694 14.0421 3.97821 13.4037 4.22767 12.6359L5.11898 9.89277C5.23054 9.54942 5.10832 9.17328 4.81625 8.96107L2.48278 7.26571C1.82968 6.7912 2.16533 5.75819 2.9726 5.75819H5.85693C6.21795 5.75819 6.53791 5.52573 6.64948 5.18237L7.54078 2.43921Z"
+                        fill="#FCB547"
+                      />
+                      <path
+                        d="M24.2078 2.43921C24.4572 1.67145 25.5434 1.67145 25.7929 2.43921L26.6842 5.18237C26.7957 5.52572 27.1157 5.75819 27.4767 5.75819H30.3611C31.1683 5.75819 31.504 6.7912 30.8509 7.26571L28.5174 8.96107C28.2253 9.17328 28.1031 9.54942 28.2147 9.89277L29.106 12.6359C29.3554 13.4037 28.4767 14.0421 27.8236 13.5676L25.4901 11.8723C25.1981 11.6601 24.8026 11.6601 24.5105 11.8723L22.177 13.5676C21.5239 14.0421 20.6452 13.4037 20.8947 12.6359L21.786 9.89277C21.8975 9.54942 21.7753 9.17328 21.4832 8.96107L19.1498 7.26571C18.4967 6.7912 18.8323 5.75819 19.6396 5.75819H22.5239C22.8849 5.75819 23.2049 5.52573 23.3165 5.18237L24.2078 2.43921Z"
+                        fill="#FCB547"
+                      />
+                      <path
+                        d="M40.8738 2.43921C41.1233 1.67145 42.2094 1.67145 42.4589 2.43921L43.3502 5.18237C43.4618 5.52572 43.7817 5.75819 44.1427 5.75819H47.0271C47.8343 5.75819 48.17 6.7912 47.5169 7.26571L45.1834 8.96107C44.8913 9.17328 44.7691 9.54942 44.8807 9.89277L45.772 12.6359C46.0215 13.4037 45.1427 14.0421 44.4896 13.5676L42.1562 11.8723C41.8641 11.6601 41.4686 11.6601 41.1765 11.8723L38.843 13.5676C38.1899 14.0421 37.3112 13.4037 37.5607 12.6359L38.452 9.89277C38.5635 9.54942 38.4413 9.17328 38.1493 8.96107L35.8158 7.26571C35.1627 6.7912 35.4983 5.75819 36.3056 5.75819H39.1899C39.551 5.75819 39.8709 5.52573 39.9825 5.18237L40.8738 2.43921Z"
+                        fill="#FCB547"
+                      />
+                      <path
+                        d="M57.5408 2.43921C57.7902 1.67145 58.8764 1.67145 59.1259 2.43921L60.0172 5.18237C60.1287 5.52572 60.4487 5.75819 60.8097 5.75819H63.6941C64.5013 5.75819 64.837 6.7912 64.1839 7.26571L61.8504 8.96107C61.5583 9.17328 61.4361 9.54942 61.5477 9.89277L62.439 12.6359C62.6885 13.4037 61.8097 14.0421 61.1566 13.5676L58.8232 11.8723C58.5311 11.6601 58.1356 11.6601 57.8435 11.8723L55.51 13.5676C54.8569 14.0421 53.9782 13.4037 54.2277 12.6359L55.119 9.89277C55.2305 9.54942 55.1083 9.17328 54.8163 8.96107L52.4828 7.26571C51.8297 6.7912 52.1653 5.75819 52.9726 5.75819H55.8569C56.218 5.75819 56.5379 5.52573 56.6495 5.18237L57.5408 2.43921Z"
+                        fill="#FCB547"
+                      />
+                      <path
+                        d="M74.2068 2.43921C74.4563 1.67145 75.5424 1.67145 75.7919 2.43921L76.6832 5.18237C76.7948 5.52572 77.1147 5.75819 77.4757 5.75819H80.3601C81.1674 5.75819 81.503 6.7912 80.8499 7.26571L78.5164 8.96107C78.2244 9.17328 78.1021 9.54942 78.2137 9.89277L79.105 12.6359C79.3545 13.4037 78.4757 14.0421 77.8226 13.5676L75.4892 11.8723C75.1971 11.6601 74.8016 11.6601 74.5095 11.8723L72.1761 13.5676C71.523 14.0421 70.6442 13.4037 70.8937 12.6359L71.785 9.89277C71.8966 9.54942 71.7743 9.17328 71.4823 8.96107L69.1488 7.26571C68.4957 6.7912 68.8313 5.75819 69.6386 5.75819H72.5229C72.884 5.75819 73.2039 5.52573 73.3155 5.18237L74.2068 2.43921Z"
+                        fill="#FCB547"
+                      />
+                    </svg>
+                  </span>
+                </div>
+
+                <p
+                  class="google text-custom-12 text-black leading-160 -mt-[2px]"
+                >
+                  Based on 145 reviews
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="bg-white text-left border border-[#14141426] rounded-2xl pt-[8.33px] pb-1.5 pl-[8.33px] pr-[44.83px] flex items-center gap-[4.83px] transition duration-500 ease-in-out hover:shadow-lg"
+            >
+              <img src="./assets/images/svg/green-star.svg" alt="google" />
+
+              <div>
+                <p
+                  class="google text-custom-12 text-black leading-160 -mb-[3px]"
+                >
+                  Trust Pilot Review
+                </p>
+
+                <div class="flex items-center gap-1">
+                  <span class="google text-xl font-normal leading-160">
+                    4.6
+                  </span>
+
+                  <span class="text-yellow-400">
+                    <svg
+                      width="84"
+                      height="17"
+                      viewBox="0 0 84 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.54078 2.43921C7.79024 1.67145 8.87642 1.67145 9.12588 2.43921L10.0172 5.18237C10.1287 5.52572 10.4487 5.75819 10.8097 5.75819H13.6941C14.5013 5.75819 14.837 6.7912 14.1839 7.26571L11.8504 8.96107C11.5583 9.17328 11.4361 9.54942 11.5477 9.89277L12.439 12.6359C12.6885 13.4037 11.8097 14.0421 11.1566 13.5676L8.82315 11.8723C8.53108 11.6601 8.13558 11.6601 7.84351 11.8723L5.51004 13.5676C4.85694 14.0421 3.97821 13.4037 4.22767 12.6359L5.11898 9.89277C5.23054 9.54942 5.10832 9.17328 4.81625 8.96107L2.48278 7.26571C1.82968 6.7912 2.16533 5.75819 2.9726 5.75819H5.85693C6.21795 5.75819 6.53791 5.52573 6.64948 5.18237L7.54078 2.43921Z"
+                        fill="#FCB547"
+                      />
+                      <path
+                        d="M24.2078 2.43921C24.4572 1.67145 25.5434 1.67145 25.7929 2.43921L26.6842 5.18237C26.7957 5.52572 27.1157 5.75819 27.4767 5.75819H30.3611C31.1683 5.75819 31.504 6.7912 30.8509 7.26571L28.5174 8.96107C28.2253 9.17328 28.1031 9.54942 28.2147 9.89277L29.106 12.6359C29.3554 13.4037 28.4767 14.0421 27.8236 13.5676L25.4901 11.8723C25.1981 11.6601 24.8026 11.6601 24.5105 11.8723L22.177 13.5676C21.5239 14.0421 20.6452 13.4037 20.8947 12.6359L21.786 9.89277C21.8975 9.54942 21.7753 9.17328 21.4832 8.96107L19.1498 7.26571C18.4967 6.7912 18.8323 5.75819 19.6396 5.75819H22.5239C22.8849 5.75819 23.2049 5.52573 23.3165 5.18237L24.2078 2.43921Z"
+                        fill="#FCB547"
+                      />
+                      <path
+                        d="M40.8738 2.43921C41.1233 1.67145 42.2094 1.67145 42.4589 2.43921L43.3502 5.18237C43.4618 5.52572 43.7817 5.75819 44.1427 5.75819H47.0271C47.8343 5.75819 48.17 6.7912 47.5169 7.26571L45.1834 8.96107C44.8913 9.17328 44.7691 9.54942 44.8807 9.89277L45.772 12.6359C46.0215 13.4037 45.1427 14.0421 44.4896 13.5676L42.1562 11.8723C41.8641 11.6601 41.4686 11.6601 41.1765 11.8723L38.843 13.5676C38.1899 14.0421 37.3112 13.4037 37.5607 12.6359L38.452 9.89277C38.5635 9.54942 38.4413 9.17328 38.1493 8.96107L35.8158 7.26571C35.1627 6.7912 35.4983 5.75819 36.3056 5.75819H39.1899C39.551 5.75819 39.8709 5.52573 39.9825 5.18237L40.8738 2.43921Z"
+                        fill="#FCB547"
+                      />
+                      <path
+                        d="M57.5408 2.43921C57.7902 1.67145 58.8764 1.67145 59.1259 2.43921L60.0172 5.18237C60.1287 5.52572 60.4487 5.75819 60.8097 5.75819H63.6941C64.5013 5.75819 64.837 6.7912 64.1839 7.26571L61.8504 8.96107C61.5583 9.17328 61.4361 9.54942 61.5477 9.89277L62.439 12.6359C62.6885 13.4037 61.8097 14.0421 61.1566 13.5676L58.8232 11.8723C58.5311 11.6601 58.1356 11.6601 57.8435 11.8723L55.51 13.5676C54.8569 14.0421 53.9782 13.4037 54.2277 12.6359L55.119 9.89277C55.2305 9.54942 55.1083 9.17328 54.8163 8.96107L52.4828 7.26571C51.8297 6.7912 52.1653 5.75819 52.9726 5.75819H55.8569C56.218 5.75819 56.5379 5.52573 56.6495 5.18237L57.5408 2.43921Z"
+                        fill="#FCB547"
+                      />
+                      <path
+                        d="M74.2068 2.43921C74.4563 1.67145 75.5424 1.67145 75.7919 2.43921L76.6832 5.18237C76.7948 5.52572 77.1147 5.75819 77.4757 5.75819H80.3601C81.1674 5.75819 81.503 6.7912 80.8499 7.26571L78.5164 8.96107C78.2244 9.17328 78.1021 9.54942 78.2137 9.89277L79.105 12.6359C79.3545 13.4037 78.4757 14.0421 77.8226 13.5676L75.4892 11.8723C75.1971 11.6601 74.8016 11.6601 74.5095 11.8723L72.1761 13.5676C71.523 14.0421 70.6442 13.4037 70.8937 12.6359L71.785 9.89277C71.8966 9.54942 71.7743 9.17328 71.4823 8.96107L69.1488 7.26571C68.4957 6.7912 68.8313 5.75819 69.6386 5.75819H72.5229C72.884 5.75819 73.2039 5.52573 73.3155 5.18237L74.2068 2.43921Z"
+                        fill="#FCB547"
+                      />
+                    </svg>
+                  </span>
+                </div>
+
+                <p
+                  class="google text-custom-12 text-black leading-160 -mt-[2px]"
+                >
+                  Based on 145 reviews
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marquee -->
+      </div>
+      <div class="mt-14 overflow-hidden">
+        <div class="marquee">
+          <!-- Card -->
+
+          <div
+            class="testimonial max-w-91 w-100 shrink-0 bg-white rounded-3xl border border-black/10 p-6 shadow-[#5757571A]"
+          >
+            <div class="flex items-center gap-3">
+              <img
+                title="img"
+                src="./assets/images/svg/Ellipse 10.svg"
+                class="w-10 h-10 rounded-full"
+              />
+
+              <div>
+                <h4
+                  class="google font-semibold text-dark-black text-md leading-[163%] mb-[-5px]"
+                >
+                  Mark T.
+                </h4>
+
+                <p
+                  class="google text-sm text-dark-black text-sm leading-[172%]"
+                >
+                  Fitness enthusiast
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-4 text-yellow-500">
+              <svg
+                width="120"
+                height="24"
+                viewBox="0 0 120 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                  fill="#FCB547"
+                />
+              </svg>
+            </div>
+
+            <p class="google mt-4 text-md leading-[163%] text-dark-black">
+              "As a fitness enthusiast, I was skeptical about resistance bands
+              at first. But after trying these, I'm a believer. The quality is
+              top-notch, and they've become an integral part of my workout
+              routine. I can't believe how versatile they are.”
+            </p>
+          </div>
+
+          <!-- Card -->
+
+          <div
+            class="testimonial max-w-91 w-100 shrink-0 bg-white rounded-3xl border border-black/10 p-6 shadow-[#5757571A]"
+          >
+            <div class="flex items-center gap-3">
+              <img
+                title="img"
+                src="./assets/images/svg/Ellipse 11.svg"
+                class="w-10 h-10 rounded-full"
+              />
+
+              <div>
+                <h4
+                  class="google font-semibold text-dark-black text-md leading-[163%] mb-[-5px]"
+                >
+                  Mark T.
+                </h4>
+
+                <p
+                  class="google text-sm text-dark-black text-sm leading-[172%]"
+                >
+                  Fitness enthusiast
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-4 text-yellow-500">
+              <svg
+                width="120"
+                height="24"
+                viewBox="0 0 120 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                  fill="#FCB547"
+                />
+              </svg>
+            </div>
+
+            <p class="google mt-4 text-md leading-[163%] text-dark-black">
+              "As a fitness enthusiast, I was skeptical about resistance bands
+              at first. But after trying these, I'm a believer. The quality is
+              top-notch, and they've become an integral part of my workout
+              routine. I can't believe how versatile they are.”
+            </p>
+          </div>
+
+          <!-- Card -->
+
+          <div
+            class="testimonial max-w-91 w-100 shrink-0 bg-white rounded-3xl border border-black/10 p-6 shadow-[#5757571A]"
+          >
+            <div class="flex items-center gap-3">
+              <img
+                title="img"
+                src="./assets/images/svg/Ellipse 12.svg"
+                class="w-10 h-10 rounded-full"
+              />
+
+              <div>
+                <h4
+                  class="google font-semibold text-dark-black text-md leading-[163%] mb-[-5px]"
+                >
+                  Mark T.
+                </h4>
+
+                <p
+                  class="google text-sm text-dark-black text-sm leading-[172%]"
+                >
+                  Fitness enthusiast
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-4 text-yellow-500">
+              <svg
+                width="120"
+                height="24"
+                viewBox="0 0 120 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                  fill="#FCB547"
+                />
+              </svg>
+            </div>
+
+            <p class="google mt-4 text-md leading-[163%] text-dark-black">
+              "As a fitness enthusiast, I was skeptical about resistance bands
+              at first. But after trying these, I'm a believer. The quality is
+              top-notch, and they've become an integral part of my workout
+              routine. I can't believe how versatile they are.”
+            </p>
+          </div>
+
+          <!-- Card -->
+
+          <div
+            class="testimonial max-w-91 w-100 shrink-0 bg-white rounded-3xl border border-black/10 p-6 shadow-[#5757571A]"
+          >
+            <div class="flex items-center gap-3">
+              <img
+                title="img"
+                src="./assets/images/svg/Ellipse 10.svg"
+                class="w-10 h-10 rounded-full"
+              />
+
+              <div>
+                <h4
+                  class="google font-semibold text-dark-black text-md leading-[163%] mb-[-5px]"
+                >
+                  Mark T.
+                </h4>
+
+                <p
+                  class="google text-sm text-dark-black text-sm leading-[172%]"
+                >
+                  Fitness enthusiast
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-4 text-yellow-500">
+              <svg
+                width="120"
+                height="24"
+                viewBox="0 0 120 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                  fill="#FCB547"
+                />
+              </svg>
+            </div>
+
+            <p class="google mt-4 text-md leading-[163%] text-dark-black">
+              "As a fitness enthusiast, I was skeptical about resistance bands
+              at first. But after trying these, I'm a believer. The quality is
+              top-notch, and they've become an integral part of my workout
+              routine. I can't believe how versatile they are.”
+            </p>
+          </div>
+
+          <!-- Card -->
+
+          <div
+            class="testimonial max-w-91 w-100 shrink-0 bg-white rounded-3xl border border-black/10 p-6 shadow-[#5757571A]"
+          >
+            <div class="flex items-center gap-3">
+              <img
+                title="img"
+                src="./assets/images/svg/Ellipse 11.svg"
+                class="w-10 h-10 rounded-full"
+              />
+
+              <div>
+                <h4
+                  class="google font-semibold text-dark-black text-md leading-[163%] mb-[-5px]"
+                >
+                  Mark T.
+                </h4>
+
+                <p
+                  class="google text-sm text-dark-black text-sm leading-[172%]"
+                >
+                  Fitness enthusiast
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-4 text-yellow-500">
+              <svg
+                width="120"
+                height="24"
+                viewBox="0 0 120 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                  fill="#FCB547"
+                />
+              </svg>
+            </div>
+
+            <p class="google mt-4 text-md leading-[163%] text-dark-black">
+              "As a fitness enthusiast, I was skeptical about resistance bands
+              at first. But after trying these, I'm a believer. The quality is
+              top-notch, and they've become an integral part of my workout
+              routine. I can't believe how versatile they are.”
+            </p>
+          </div>
+
+          <!-- Card -->
+
+          <div
+            class="testimonial max-w-91 w-100 shrink-0 bg-white rounded-3xl border border-black/10 p-6 shadow-[#5757571A]"
+          >
+            <div class="flex items-center gap-3">
+              <img
+                title="img"
+                src="./assets/images/svg/Ellipse 11.svg"
+                class="w-10 h-10 rounded-full"
+              />
+
+              <div>
+                <h4
+                  class="google font-semibold text-dark-black text-md leading-[163%] mb-[-5px]"
+                >
+                  Mark T.
+                </h4>
+
+                <p
+                  class="google text-sm text-dark-black text-sm leading-[172%]"
+                >
+                  Fitness enthusiast
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-4 text-yellow-500">
+              <svg
+                width="120"
+                height="24"
+                viewBox="0 0 120 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                  fill="#FCB547"
+                />
+              </svg>
+            </div>
+
+            <p class="google mt-4 text-md leading-[163%] text-dark-black">
+              "As a fitness enthusiast, I was skeptical about resistance bands
+              at first. But after trying these, I'm a believer. The quality is
+              top-notch, and they've become an integral part of my workout
+              routine. I can't believe how versatile they are.”
+            </p>
+          </div>
+
+          <!-- Card -->
+
+          <div
+            class="testimonial max-w-91 w-100 shrink-0 bg-white rounded-3xl border border-black/10 p-6 shadow-[#5757571A]"
+          >
+            <div class="flex items-center gap-3">
+              <img
+                title="img"
+                src="./assets/images/svg/Ellipse 11.svg"
+                class="w-10 h-10 rounded-full"
+              />
+
+              <div>
+                <h4
+                  class="google font-semibold text-dark-black text-md leading-[163%] mb-[-5px]"
+                >
+                  Mark T.
+                </h4>
+
+                <p
+                  class="google text-sm text-dark-black text-sm leading-[172%]"
+                >
+                  Fitness enthusiast
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-4 text-yellow-500">
+              <svg
+                width="120"
+                height="24"
+                viewBox="0 0 120 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                  fill="#FCB547"
+                />
+                <path
+                  d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                  fill="#FCB547"
+                />
+              </svg>
+            </div>
+
+            <p class="google mt-4 text-md leading-[163%] text-dark-black">
+              "As a fitness enthusiast, I was skeptical about resistance bands
+              at first. But after trying these, I'm a believer. The quality is
+              top-notch, and they've become an integral part of my workout
+              routine. I can't believe how versatile they are.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+    HOW IT WORKS
+============================ -->
+    <section class="pb-16 md:pb-20 lg:pb-35 bg-[var(--color-white)]">
+      <div class="container mx-auto px-4">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 items-start justify-center gap-[63px] max-w-[1140px] mx-auto lg:gap-16"
+        >
+          <div class="relative flex justify-center lg:justify-end items-start">
+            <!-- Red Accent -->
+
+            <div
+              class="absolute bottom-[-50px] left-[60px] lg:h-[396px] lg:w-[300px] rounded-[24px] bg-[#FF0000]"
+            ></div>
+
+            <!-- Image -->
+
+            <div class="relative z-10 ml-8 overflow-hidden rounded-[28px]">
+              <img
+                width="435"
+                height="581"
+                title="img"
+                src="./assets/images/webp/how-it-works.webp"
+                class="h-auto w-[435px] h-100 w-100 object-cover transition duration-700 group-hover:scale-105 lg:h-[581px] lg:w-[435px] rounded-[24px]"
+              />
+            </div>
+          </div>
+          <!-- Right Content -->
+
+          <div class="max-w-[592px] xl:min-w-[592px] mx-auto lg:mx-0">
+            <!-- Heading -->
+
+            <h2
+              class="font-semibold text-3xl md:text-5xl lg:text-[56px] !leading-[127%] text-[-black]"
+            >
+              How It Works?
+            </h2>
+
+            <!-- Description -->
+
+            <p
+              class="mt-5 text-sm md:text-base lg:text-[18px] !leading-[162%] text-black max-w-xl"
+            >
+              Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+              Pregigt primasofi dede facebooka: förutom tivaligt.
+            </p>
+
+            <!-- Cards -->
+
+            <div class="mt-8 space-y-4">
+              <!-- Card -->
+
+              <div
+                class="group flex gap-5 rounded-3xl bg-white p-4 shadow-md transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+              >
+                <!-- Icon -->
+
+                <div
+                  class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full transition duration-300"
+                >
+                  <img
+                    width="32"
+                    height="32"
+                    src="./assets/images/svg/verify.svg"
+                    alt="verify"
+                  />
+                </div>
+
+                <!-- Text -->
+
+                <div>
+                  <h4
+                    class="font-semibold text-lg md:text-xl !leading-[160%] text-[#010101]"
+                  >
+                    Contact us
+                  </h4>
+
+                  <p
+                    class="mt-3 text-base font-normal leading-[163%] text-black/60"
+                  >
+                    Lorem ipsum deligen vuprer diar faktigt på dehådiska att
+                    sara. Persion. Repp lång blippbetalning. Megaliga fadat om
+                    än dening.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Card -->
+
+              <div
+                class="group flex gap-5 rounded-3xl bg-white p-4 shadow-md transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+              >
+                <!-- Icon -->
+
+                <div
+                  class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full transition duration-300"
+                >
+                  <img
+                    width="32"
+                    height="32"
+                    src="./assets/images/svg/verify.svg"
+                    alt="verify"
+                  />
+                </div>
+
+                <!-- Text -->
+
+                <div>
+                  <h4
+                    class="font-semibold text-lg md:text-xl !leading-[160%] text-[#010101]"
+                  >
+                    Get a Qoute
+                  </h4>
+
+                  <p
+                    class="mt-3 text-base font-normal leading-[163%] text-black/60"
+                  >
+                    Lorem ipsum deligen vuprer diar faktigt på dehådiska att
+                    sara. Persion. Repp lång blippbetalning. Megaliga fadat om
+                    än dening.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Card -->
+
+              <div
+                class="group flex gap-5 rounded-3xl bg-white p-4 shadow-md transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+              >
+                <!-- Icon -->
+
+                <div
+                  class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full transition duration-300"
+                >
+                  <img
+                    width="32"
+                    height="32"
+                    src="./assets/images/svg/verify.svg"
+                    alt="verify"
+                  />
+                </div>
+
+                <!-- Text -->
+
+                <div>
+                  <h4
+                    class="font-semibold text-lg md:text-xl !leading-[160%] text-[#010101]"
+                  >
+                    Get your Work Done
+                  </h4>
+
+                  <p
+                    class="mt-3 text-base font-normal leading-[163%] text-black/60"
+                  >
+                    Lorem ipsum deligen vuprer diar faktigt på dehådiska att
+                    sara. Persion. Repp lång blippbetalning. Megaliga fadat om
+                    än dening.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Buttons -->
+
+            <div class="mt-9 flex flex-col sm:flex-row gap-6">
+              <!-- Primary -->
+
+              <a
+                href="#"
+                class="inline-flex items-center justify-center border border-transparent text-lg rounded-[56px] leading-[128%] bg-[red] px-8 py-5 font-bold text-white transition-all ease-in-out duration-400 hover:text-red hover:bg-white hover:border-red"
+              >
+                Get A Quote
+              </a>
+
+              <!-- Secondary -->
+
+              <a
+                href="#"
+                class="inline-flex items-center justify-center text-base md:text-lg leading-[119%] rounded-[56px] border border-[red] px-8 py-5 font-bold text-[red] transition-all duration-400 hover:bg-red hover:text-white"
+              >
+                View Tile Visualizer
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex items-center justify-center pb-16 md:pb-20 lg:pb-35">
+      <div class="container max-w-[1180px] mx-auto px-5">
+        <div
+          class="relative overflow-hidden rounded-3xl bg-cover bg-center px-6 py-16 md:px-10 md:py-20 lg:h-[447px] flex items-center justify-center text-center"
+          style="
+            background-image: url(&quot;./assets/images/webp/background\ image.webp&quot;);
+          "
+        >
+          <!-- Overlay -->
+          <div class="absolute inset-0 bg-[rgba(255,0,0,0.75)]"></div>
+
+          <!-- Content -->
+          <div class="relative z-10 max-w-[592px] text-white">
+            <h2
+              class="font-semibold capitalize text-3xl md:text-5xl lg:text-custom-56 leading-127"
+            >
+              Interested?<br />
+              Get in touch with us
+            </h2>
+
+            <p
+              class="mt-5 mb-9 text-sm md:text-base lg:text-lg leading-160 text-white/90"
+            >
+              Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+              Pregigt primasofi dede facebooka: förutom tivaligt.
+            </p>
+
+            <a
+              href="#"
+              class="inline-flex items-center justify-center rounded-full !leading-127 bg-white max-w-[173px] w-100 px-8 py-5 font-bold text-lg text-red transition-all duration-300 hover:-translate-y-1 hover:bg-red-900 hover:text-white"
+            >
+              <p>Get A Quote</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-16 md:pb-20 lg:pb-35 bg-white">
+      <div class="container max-w-[1180px] mx-auto px-5">
+        <!-- Heading -->
+
+        <div class="max-w-[650px] mx-auto text-center">
+          <h2
+            class="text-3xl md:text-5xl lg:text-custom-56 font-semibold leading-127 text-dark-black"
+          >
+            Our Blog
+          </h2>
+
+          <p
+            class="mt-5 text-sm md:text-md lg:text-xl leading-[145%] text-shine-black"
+          >
+            Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
+            primasofi dede facebooka: förutom tivaligt. Fejkade
+          </p>
+        </div>
+
+        <!-- Cards -->
+
+        <div
+          id="blogContainer"
+          class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center"
+        ></div>
+      </div>
+    </section>
+
+    <!-- ===========================
+      FAQ
+=========================== -->
+
+    <section class="pb-16 md:pb-20 lg:pb-29 bg-white">
+      <div class="container mx-auto px-4">
+        <!-- Heading -->
+
+        <div class="mx-auto text-center">
+          <h2
+            class="text-3xl md:text-5xl lg:text-custom-56 font-semibold leading-127 text-dark-black"
+          >
+            Frequently Asked Questions
+          </h2>
+
+          <p
+            class="max-w-[592px] mx-auto mt-5 text-sm md:text-base lg:text-lg leading-160 text-shine-black"
+          >
+            Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
+            primasofi dede facebooka: förutom tivaligt. Fejkade.
+          </p>
+        </div>
+
+        <!-- FAQ -->
+
+        <div
+          id="faqContainer"
+          class="max-w-[912px] mx-auto mt-14 space-y-4"
+        ></div>
+      </div>
+    </section>
+
+    <!-- ===========================
+    SERVICE AREAS
+=========================== -->
+
+    <section class="bg-white">
+      <div class="container max-w-[1180px] mx-auto px-5">
+        <!-- Heading -->
+
+        <div class="max-w-[592px]">
+          <h2
+            class="text-3xl md:text-5xl lg:text-custom-56 font-semibold leading-127 text-dark-black"
+          >
+            We Provide Services
+            <br />
+            In These Areas
+          </h2>
+
+          <p
+            class="mt-5 text-sm md:text-base lg:text-lg leading-[161%] text-dark-black"
+          >
+            Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
+            primasofi dede facebooka: förutom tivaligt. Fejkade
+          </p>
+        </div>
+
+        <!-- Locations -->
+
+       <div
+    id="locationContainer"
+    class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6">
+</div>
+      </div>
+    </section>
+
+    <!-- ===========================
+        FOOTER
+=========================== -->
+ <footer class="bg-white pt-16 md:pt-20 lg:pt-30">
+      <div class="container max-w-[1180px] mx-auto px-5">
+        <!-- FOOTER CONTENT -->
+
+        <div
+          class="flex flex-col gap-10 lg:flex-row lg:items-start  lg:gap-32"
+        >
+          <!-- =========================
+                    LEFT CONTENT
+            ========================== -->
+
+          <div class="w-full lg:w-[182px] lg:shrink-0">
+            <!-- LOGO -->
+
+            <a href="#">
+              <img
+                src="./assets/images/svg/footer-logo3.svg"
+                alt="Logo"
+                class="w-44"
+              />
+            </a>
+
+            <!-- CONTACT -->
+
+            <div class="mt-5 space-y-4">
+              <!-- EMAIL -->
+
+              <a
+                href="mailto:help@dealzip.com"
+                class="group flex items-center gap-3 text-shine-black transition-colors duration-300 hover:text-red"
+              >
+                <span
+                  class="flex h-4.5 w-5 items-center justify-center transition-transform duration-300 group-hover:scale-110"
+                >
+                  <img src="./assets/images/svg/footer-mail.svg" alt="mail" />
+                </span>
+
+                <span class="text-[#1B2228] text-base leading-[163%]"> Help@Dealzip.Com </span>
+              </a>
+
+              <!-- PHONE -->
+
+              <a
+                href="tel:+123445667889"
+                class="group flex items-center gap-3 text-shine-black transition-colors duration-300 hover:text-red"
+              >
+                <span
+                  class="flex h-6 w-6 items-center justify-center transition-transform duration-300 group-hover:scale-110"
+                >
+                  <img src="./assets/images/svg/footer-phone.svg" alt="phone" />
+                </span>
+
+                <span class="text-[#1B2228] text-base leading-[163%]"> +1 234 456 678 89 </span>
+              </a>
+            </div>
+
+            <!-- SOCIAL ICONS -->
+
+            <div class="mt-6 flex gap-3">
+              <!-- FACEBOOK -->
+
+              <a
+                href="https://www.facebook.com/"
+                rel="noopener"
+                target="_blank"
+                aria-label="Facebook"
+                class="flex h-8 w-8 items-center justify-center transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-110"
+              >
+                <img src="./assets/images/svg/facebook3.svg" alt="facebook" />
+              </a>
+
+              <!-- INSTAGRAM -->
+
+              <a
+                href="https://www.instagram.com/"
+                rel="noopener"
+                target="_blank"
+                aria-label="Instagram"
+                class="flex h-8 w-8 items-center justify-center transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-110"
+              >
+                <img src="./assets/images/svg/instgaram3.svg" alt="instagram" />
+              </a>
+
+              <!-- X -->
+
+              <a
+                href="https://x.com/"
+                rel="noopener"
+                target="_blank"
+                aria-label="X"
+                class="flex h-8 w-8 items-center justify-center transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-110"
+              >
+                <img src="./assets/images/svg//twitter3.svg" alt="twitter" />
+              </a>
+
+              <!-- LINKEDIN -->
+
+              <a
+                href="https://www.linkedin.com/"
+                rel="noopener"
+                target="_blank"
+                aria-label="LinkedIn"
+                class="flex h-8 w-8 items-center justify-center transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-110"
+              >
+                <img src="./assets/images/svg/linkdin.svg" alt="linkedin" />
+              </a>
+            </div>
+          </div>
+
+          <!-- =========================
+                    LINKS SECTION
+            ========================== -->
+
+         <div class="flex md:flex-nowrap flex-wrap gap-[76px] lg:min-w-[832px]">
+           <div
+            class="flex w-full min-w-[362px] max-w-[492px] flex-row justify-between gap-5 sm:gap-8 lg:mx-0"
+          >
+            <!-- LINKS -->
+
+            <div class="flex-1 max-w-[80px]">
+              <h3 class="font-semibold text-xl text-[#1B2228] leading-[160%]">
+                Links
+              </h3>
+
+              <ul class="mt-5 space-y-3">
+                <li>
+                  <a
+                    href="#"
+                    class="font-regular text-md leading-[163%] text-[#1B2228] transition-colors duration-300 hover:text-red"
+                  >
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="font-regular text-md leading-[163%] text-[#1B2228] transition-colors duration-300 hover:text-red"
+                  >
+                    About Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="font-regular text-md leading-[163%] text-[#1B2228] transition-colors duration-300 hover:text-red"
+                  >
+                    Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="font-regular text-md leading-[163%] text-[#1B2228] transition-colors duration-300 hover:text-red"
+                  >
+                    Showcase
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- LEGAL -->
+
+            <div class="flex-1 max-w-[105px]">
+              <h3 class="font-semibold text-xl text-[#1B2228] leading-[160%]">
+                Legal
+              </h3>
+
+              <ul class="mt-5 space-y-3">
+                <li>
+                  <a
+                    href="#"
+                    class="font-regular text-md leading-[163%] text-[#1B2228] transition-colors duration-300 hover:text-red"
+                  >
+                    Terms Of Use
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="font-regular text-md leading-[163%] text-[#1B2228] transition-colors duration-300 hover:text-red"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="font-regular text-md leading-[163%] text-[#1B2228] transition-colors duration-300 hover:text-red"
+                  >
+                    Cookie Policy
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- PRODUCT -->
+
+            <div class="flex-1 max-w-[79px]">
+              <h3 class="font-semibold text-xl text-[#1B2228] leading-[160%]">
+                Product
+              </h3>
+
+              <ul class="mt-5 space-y-3">
+                <li>
+                  <a
+                    href="#"
+                    class="font-regular text-md leading-[163%] text-[#1B2228] transition-colors duration-300 hover:text-red"
+                  >
+                    Take Tour
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="font-regular text-md leading-[163%] text-[#1B2228] transition-colors duration-300 hover:text-red"
+                  >
+                    Live Chat
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="font-regular text-md leading-[163%] text-[#1B2228] transition-colors duration-300 hover:text-red"
+                  >
+                    Reviews
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full lg:max-w-[340px] lg:shrink-0">
+            <h3 class="font-semibold text-xl text-[#1B2228] leading-[160%]">
+              Newsletter
+            </h3>
+
+            <p class="mt-5 font-regular text-md leading-[163%] text-[#1B2228]">
+              Stay Up To Date
+            </p>
+
+            <!-- FORM -->
+
+            <form class="mt-3 w-full ">
+              <div
+                class="flex w-full pl-[25px] pr-[10px] py-2 overflow-hidden rounded-full border border-black/15 bg-white"
+              >
+                <input
+                  id="footer-mail"
+                  type="email"
+                  required
+                  placeholder="Your email"
+                  class="min-w-0 w-full bg-transparent outline-none text-[#1B2228] placeholder:text-black/40"
+                />
+
+                <button
+                  type="submit"
+                  class="my-auto  h-[55.73px] shrink-0 rounded-full border border-transparent bg-[red] px-10 text-white transition-all duration-300 ease-out hover:bg-white hover:text-[red] hover:border-[red] hover:scale-[1.02]"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+         </div>
+
+          
+          
+        </div>
+
+        <!-- =========================
+                COPYRIGHT
+        ========================== -->
+
+       
+      </div>
+       <div
+          class="mt-[45px] border-t [border-image:linear-gradient(90deg,rgba(22,22,22,0)_0%,#696969_51.56%,rgba(22,22,22,0)_100%)_1] border-black/10 py-4 text-center text-[#1B2228] leading-[158%]"
+        >
+          Copyright 2024 Ceramicsolutions.Com All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
