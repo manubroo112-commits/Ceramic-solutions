@@ -1,0 +1,71 @@
+      @theme {
+        /* colors */
+        --color-white: #ffffff;
+        --color-red: #ff0000;
+        --color-black: #141414;
+        --color-dark-black: #000000;
+        --color-pure-black: #1B2228;
+        --color-pink: #ffebeb;
+        --color-shine-black: #010101;
+
+        /* font-size */
+        --text-custom-12: 12px;
+        --text-custom-13: 13px;
+        --text-custom-15: 15px;
+        --text-custom-17: 17px;
+        --text-custom-19: 19px;
+        --text-custom-21: 21px;
+        --text-custom-22: 22px;
+        --text-custom-23: 23px;
+        --text-custom-25: 25px;
+        --text-custom-26: 26px;
+        --text-custom-27: 27px;
+        --text-custom-28: 28px;
+        --text-custom-29: 29px;
+        --text-custom-31: 31px;
+        --text-custom-32: 32px;
+        --text-custom-33: 33px;
+        --text-custom-34: 34px;
+        --text-custom-35: 35px;
+        --text-custom-37: 37px;
+        --text-custom-38: 38px;
+        --text-custom-39: 39px;
+        --text-custom-40: 40px;
+        --text-custom-41: 41px;
+        --text-custom-42: 42px;
+        --text-custom-43: 43px;
+        --text-custom-44: 44px;
+        --text-custom-45: 45px;
+        --text-custom-46: 46px;
+        --text-custom-47: 47px;
+        --text-custom-49: 49px;
+        --text-custom-50: 50px;
+        --text-custom-51: 51px;
+        --text-custom-52: 52px;
+        --text-custom-53: 53px;
+        --text-custom-54: 54px;
+        --text-custom-55: 55px;
+        --text-custom-56: 56px;
+        --text-custom-57: 57px;
+        --text-custom-58: 58px;
+        --text-custom-59: 59px;
+        --text-custom-61: 61px;
+        --text-custom-62: 62px;
+        --text-custom-63: 63px;
+        --text-custom-64: 64px;
+        --text-custom-65: 65px;
+        --text-custom-66: 66px;
+        --text-custom-67: 67px;
+        --text-custom-68: 68px;
+
+        /* leading */
+        --leading-100: 100%;
+        --leading-127: 127%;
+        --leading-150: 150%;
+        --leading-159: 159%;
+        --leading-160: 160%;
+        --leading-162: 162%;
+        --leading-165: 165%;
+        --leading-170: 170%;
+        --leading-180: 180%;
+      }

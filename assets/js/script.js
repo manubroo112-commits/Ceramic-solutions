@@ -117,14 +117,14 @@ hover:-translate-y-2 hover:border-red-100 hover:shadow-[0_18px_45px_rgba(255,0,0
         class="w-full rounded-xl object-cover transition duration-700 group-hover:scale-[1.03]">
 
     <h3
-        class="mt-6 max-w-[316px] text-xl lg:text-2xl font-semibold !leading-[159%]">
+        class="mt-6 max-w-[316px] text-xl lg:text-2xl font-semibold !leading-159 ">
 
         ${service.title}
 
     </h3>
 
     <p
-        class="mt-3 max-w-[316px] text-sm md:text-base text-gray-500 !leading-[163%]">
+        class="mt-3 max-w-[316px] text-sm md:text-base text-dark-black !leading-163">
 
         ${service.description}
 
@@ -132,14 +132,16 @@ hover:-translate-y-2 hover:border-red-100 hover:shadow-[0_18px_45px_rgba(255,0,0
 
     <a
         href="${service.link}"
-        class="mt-6 inline-flex items-center gap-2 leading-[163%] font-semibold text-red-500 transition-all duration-300 group-hover:text-red-600">
+        class="mt-6 inline-flex items-center gap-2 leading-[163%] font-semibold text-red transition-all duration-300 group-hover:text-red-600">
 
         Learn more
 
         <span
         class="transition-all duration-300 group-hover:translate-x-2 group-hover:scale-110">
 
-            →
+           <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.75 4.77344C0.335786 4.77344 0 5.10922 0 5.52344C0 5.93765 0.335786 6.27344 0.75 6.27344V4.77344ZM25.2803 6.05377C25.5732 5.76087 25.5732 5.286 25.2803 4.99311L20.5074 0.220137C20.2145 -0.0727568 19.7396 -0.0727568 19.4467 0.220137C19.1538 0.51303 19.1538 0.987904 19.4467 1.2808L23.6893 5.52344L19.4467 9.76608C19.1538 10.059 19.1538 10.5338 19.4467 10.8267C19.7396 11.1196 20.2145 11.1196 20.5074 10.8267L25.2803 6.05377ZM0.75 6.27344H24.75V4.77344H0.75V6.27344Z" fill="#FF0000"/>
+</svg>
 
         </span>
 
@@ -215,7 +217,7 @@ blogContainer.innerHTML = blogs
     (blog) => `
 
 <div
-class="group max-w-[364px] rounded-3xl bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+class="group max-w-[364px] rounded-3xl bg-white p-6 shadow-[0px_0px_12px_3px_#B6B6B640] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
 
     <div class="overflow-hidden rounded-2xl">
 
@@ -230,7 +232,7 @@ class="group max-w-[364px] rounded-3xl bg-white p-6 shadow-md transition-all dur
 
     <h3
 
-        class="mt-6 text-2xl font-semibold leading-[159%] text-dark-black">
+        class="mt-6 text-2xl font-semibold leading-[159%] text-dark-black max-[375px]:text-xl">
 
         ${blog.title}
 
@@ -244,20 +246,9 @@ class="group max-w-[364px] rounded-3xl bg-white p-6 shadow-md transition-all dur
 
         Learn more
 
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-4 w-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2">
-
-            <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M5 12h14m-6-6l6 6-6 6"/>
-
-        </svg>
+        <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.75 4.77344C0.335786 4.77344 0 5.10922 0 5.52344C0 5.93765 0.335786 6.27344 0.75 6.27344V4.77344ZM25.2803 6.05377C25.5732 5.76087 25.5732 5.286 25.2803 4.99311L20.5074 0.220137C20.2145 -0.0727568 19.7396 -0.0727568 19.4467 0.220137C19.1538 0.51303 19.1538 0.987904 19.4467 1.2808L23.6893 5.52344L19.4467 9.76608C19.1538 10.059 19.1538 10.5338 19.4467 10.8267C19.7396 11.1196 20.2145 11.1196 20.5074 10.8267L25.2803 6.05377ZM0.75 6.27344H24.75V4.77344H0.75V6.27344Z" fill="#FF0000"/>
+</svg>
 
     </a>
 
@@ -305,7 +296,7 @@ faqContainer.innerHTML = faqs
   .map(
     (faq, index) => `
 
-<div class="faq-item mb-6 rounded-2xl bg-white shadow-md transition-all duration-300 hover:shadow-xl">
+<div class="faq-item mb-6 rounded-2xl bg-white shadow-[0px_2px_44px_3px_#5757571A] transition-all duration-300 hover:shadow-xl">
 
     <button
         class="faq-btn flex w-full items-center justify-between px-5 py-[21px] text-left">
@@ -456,7 +447,7 @@ locationContainer.innerHTML = locations
         rounded-full bg-red
         transition-all duration-500 ease-out
         group-hover:rotate-[360deg]
-        group-hover:scale-110">
+        group-hover:scale-110 ">
 
    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M25.7754 10.5625C24.4629 4.7875 19.4254 2.1875 15.0004 2.1875C15.0004 2.1875 15.0004 2.1875 14.9879 2.1875C10.5754 2.1875 5.52536 4.775 4.21286 10.55C2.75036 17 6.70036 22.4625 10.2754 25.9C11.6004 27.175 13.3004 27.8125 15.0004 27.8125C16.7004 27.8125 18.4004 27.175 19.7129 25.9C23.2879 22.4625 27.2379 17.0125 25.7754 10.5625ZM15.0004 16.825C12.8254 16.825 11.0629 15.0625 11.0629 12.8875C11.0629 10.7125 12.8254 8.95 15.0004 8.95C17.1754 8.95 18.9379 10.7125 18.9379 12.8875C18.9379 15.0625 17.1754 16.825 15.0004 16.825Z" fill="white"/>
@@ -474,7 +465,7 @@ locationContainer.innerHTML = locations
         text-2xl
         leading-160
         transition-all duration-300
-        group-hover:text-[var(--color-red)]">
+        group-hover:text-[var(--color-red)] max-[375px]:text-xl">
 
         ${location.name}
 
